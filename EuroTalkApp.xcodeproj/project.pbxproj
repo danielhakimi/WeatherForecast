@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652BB90915D4226700D774BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652BB90815D4226700D774BD /* UIKit.framework */; };
+		652BB90B15D4226700D774BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652BB90A15D4226700D774BD /* Foundation.framework */; };
+		652BB90D15D4226700D774BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652BB90C15D4226700D774BD /* CoreGraphics.framework */; };
+		652BB91315D4226700D774BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 652BB91115D4226700D774BD /* InfoPlist.strings */; };
+		652BB91515D4226700D774BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652BB91415D4226700D774BD /* main.m */; };
+		652BB91915D4226700D774BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 652BB91815D4226700D774BD /* AppDelegate.m */; };
+		652BB91C15D4226700D774BD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652BB91A15D4226700D774BD /* MainStoryboard.storyboard */; };
+		652BB91F15D4226700D774BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652BB91E15D4226700D774BD /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		652BB90415D4226700D774BD /* EuroTalkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuroTalkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		652BB90815D4226700D774BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		652BB90A15D4226700D774BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		652BB90C15D4226700D774BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		652BB91015D4226700D774BD /* EuroTalkApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EuroTalkApp-Info.plist"; sourceTree = "<group>"; };
+		652BB91215D4226700D774BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		652BB91415D4226700D774BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		652BB91615D4226700D774BD /* EuroTalkApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EuroTalkApp-Prefix.pch"; sourceTree = "<group>"; };
+		652BB91715D4226700D774BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		652BB91815D4226700D774BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		652BB91B15D4226700D774BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		652BB91D15D4226700D774BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		652BB91E15D4226700D774BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		652BB90115D4226700D774BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652BB90915D4226700D774BD /* UIKit.framework in Frameworks */,
+				652BB90B15D4226700D774BD /* Foundation.framework in Frameworks */,
+				652BB90D15D4226700D774BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		652BB8F915D4226700D774BD = {
+			isa = PBXGroup;
+			children = (
+				652BB90E15D4226700D774BD /* EuroTalkApp */,
+				652BB90715D4226700D774BD /* Frameworks */,
+				652BB90515D4226700D774BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		652BB90515D4226700D774BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				652BB90415D4226700D774BD /* EuroTalkApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		652BB90715D4226700D774BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				652BB90815D4226700D774BD /* UIKit.framework */,
+				652BB90A15D4226700D774BD /* Foundation.framework */,
+				652BB90C15D4226700D774BD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		652BB90E15D4226700D774BD /* EuroTalkApp */ = {
+			isa = PBXGroup;
+			children = (
+				652BB91715D4226700D774BD /* AppDelegate.h */,
+				652BB91815D4226700D774BD /* AppDelegate.m */,
+				652BB91A15D4226700D774BD /* MainStoryboard.storyboard */,
+				652BB91D15D4226700D774BD /* ViewController.h */,
+				652BB91E15D4226700D774BD /* ViewController.m */,
+				652BB90F15D4226700D774BD /* Supporting Files */,
+			);
+			path = EuroTalkApp;
+			sourceTree = "<group>";
+		};
+		652BB90F15D4226700D774BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				652BB91015D4226700D774BD /* EuroTalkApp-Info.plist */,
+				652BB91115D4226700D774BD /* InfoPlist.strings */,
+				652BB91415D4226700D774BD /* main.m */,
+				652BB91615D4226700D774BD /* EuroTalkApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		652BB90315D4226700D774BD /* EuroTalkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652BB92215D4226700D774BD /* Build configuration list for PBXNativeTarget "EuroTalkApp" */;
+			buildPhases = (
+				652BB90015D4226700D774BD /* Sources */,
+				652BB90115D4226700D774BD /* Frameworks */,
+				652BB90215D4226700D774BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EuroTalkApp;
+			productName = EuroTalkApp;
+			productReference = 652BB90415D4226700D774BD /* EuroTalkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		652BB8FB15D4226700D774BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Daniel Hakimi-Nayeri";
+			};
+			buildConfigurationList = 652BB8FE15D4226700D774BD /* Build configuration list for PBXProject "EuroTalkApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 652BB8F915D4226700D774BD;
+			productRefGroup = 652BB90515D4226700D774BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				652BB90315D4226700D774BD /* EuroTalkApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		652BB90215D4226700D774BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652BB91315D4226700D774BD /* InfoPlist.strings in Resources */,
+				652BB91C15D4226700D774BD /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		652BB90015D4226700D774BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652BB91515D4226700D774BD /* main.m in Sources */,
+				652BB91915D4226700D774BD /* AppDelegate.m in Sources */,
+				652BB91F15D4226700D774BD /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		652BB91115D4226700D774BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652BB91215D4226700D774BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		652BB91A15D4226700D774BD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652BB91B15D4226700D774BD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		652BB92015D4226700D774BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		652BB92115D4226700D774BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		652BB92315D4226700D774BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EuroTalkApp/EuroTalkApp-Prefix.pch";
+				INFOPLIST_FILE = "EuroTalkApp/EuroTalkApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		652BB92415D4226700D774BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EuroTalkApp/EuroTalkApp-Prefix.pch";
+				INFOPLIST_FILE = "EuroTalkApp/EuroTalkApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		652BB8FE15D4226700D774BD /* Build configuration list for PBXProject "EuroTalkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652BB92015D4226700D774BD /* Debug */,
+				652BB92115D4226700D774BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652BB92215D4226700D774BD /* Build configuration list for PBXNativeTarget "EuroTalkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652BB92315D4226700D774BD /* Debug */,
+				652BB92415D4226700D774BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 652BB8FB15D4226700D774BD /* Project object */;
+}
