@@ -18,14 +18,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		652BB90415D4226700D774BD /* EuroTalkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuroTalkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		652BB90415D4226700D774BD /* WeatherForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		652BB90815D4226700D774BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		652BB90A15D4226700D774BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		652BB90C15D4226700D774BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		652BB91015D4226700D774BD /* EuroTalkApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EuroTalkApp-Info.plist"; sourceTree = "<group>"; };
+		652BB91015D4226700D774BD /* WeatherForecast-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherForecast-Info.plist"; sourceTree = "<group>"; };
 		652BB91215D4226700D774BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		652BB91415D4226700D774BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		652BB91615D4226700D774BD /* EuroTalkApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EuroTalkApp-Prefix.pch"; sourceTree = "<group>"; };
+		652BB91615D4226700D774BD /* WeatherForecast-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherForecast-Prefix.pch"; sourceTree = "<group>"; };
 		652BB91715D4226700D774BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		652BB91815D4226700D774BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		652BB91B15D4226700D774BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		652BB8F915D4226700D774BD = {
 			isa = PBXGroup;
 			children = (
-				652BB90E15D4226700D774BD /* EuroTalkApp */,
+				652BB90E15D4226700D774BD /* WeatherForecast */,
 				652BB90715D4226700D774BD /* Frameworks */,
 				652BB90515D4226700D774BD /* Products */,
 			);
@@ -59,7 +59,7 @@
 		652BB90515D4226700D774BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				652BB90415D4226700D774BD /* EuroTalkApp.app */,
+				652BB90415D4226700D774BD /* WeatherForecast.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		652BB90E15D4226700D774BD /* EuroTalkApp */ = {
+		652BB90E15D4226700D774BD /* WeatherForecast */ = {
 			isa = PBXGroup;
 			children = (
 				652BB91715D4226700D774BD /* AppDelegate.h */,
@@ -84,16 +84,16 @@
 				652BB91E15D4226700D774BD /* ViewController.m */,
 				652BB90F15D4226700D774BD /* Supporting Files */,
 			);
-			path = EuroTalkApp;
+			path = WeatherForecast;
 			sourceTree = "<group>";
 		};
 		652BB90F15D4226700D774BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				652BB91015D4226700D774BD /* EuroTalkApp-Info.plist */,
+				652BB91015D4226700D774BD /* WeatherForecast-Info.plist */,
 				652BB91115D4226700D774BD /* InfoPlist.strings */,
 				652BB91415D4226700D774BD /* main.m */,
-				652BB91615D4226700D774BD /* EuroTalkApp-Prefix.pch */,
+				652BB91615D4226700D774BD /* WeatherForecast-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		652BB90315D4226700D774BD /* EuroTalkApp */ = {
+		652BB90315D4226700D774BD /* WeatherForecast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 652BB92215D4226700D774BD /* Build configuration list for PBXNativeTarget "EuroTalkApp" */;
+			buildConfigurationList = 652BB92215D4226700D774BD /* Build configuration list for PBXNativeTarget "WeatherForecast" */;
 			buildPhases = (
 				652BB90015D4226700D774BD /* Sources */,
 				652BB90115D4226700D774BD /* Frameworks */,
@@ -113,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = EuroTalkApp;
-			productName = EuroTalkApp;
-			productReference = 652BB90415D4226700D774BD /* EuroTalkApp.app */;
+			name = WeatherForecast;
+			productName = WeatherForecast;
+			productReference = 652BB90415D4226700D774BD /* WeatherForecast.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +127,7 @@
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Daniel Hakimi-Nayeri";
 			};
-			buildConfigurationList = 652BB8FE15D4226700D774BD /* Build configuration list for PBXProject "EuroTalkApp" */;
+			buildConfigurationList = 652BB8FE15D4226700D774BD /* Build configuration list for PBXProject "WeatherForecast" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -139,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				652BB90315D4226700D774BD /* EuroTalkApp */,
+				652BB90315D4226700D774BD /* WeatherForecast */,
 			);
 		};
 /* End PBXProject section */
@@ -239,10 +239,12 @@
 		652BB92315D4226700D774BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "EuroTalkApp/EuroTalkApp-Prefix.pch";
-				INFOPLIST_FILE = "EuroTalkApp/EuroTalkApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "WeatherForecast/WeatherForecast-Prefix.pch";
+				INFOPLIST_FILE = "WeatherForecast/WeatherForecast-Info.plist";
+				PRODUCT_NAME = WeatherForecast;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -250,10 +252,12 @@
 		652BB92415D4226700D774BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "EuroTalkApp/EuroTalkApp-Prefix.pch";
-				INFOPLIST_FILE = "EuroTalkApp/EuroTalkApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "WeatherForecast/WeatherForecast-Prefix.pch";
+				INFOPLIST_FILE = "WeatherForecast/WeatherForecast-Info.plist";
+				PRODUCT_NAME = WeatherForecast;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -261,7 +265,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		652BB8FE15D4226700D774BD /* Build configuration list for PBXProject "EuroTalkApp" */ = {
+		652BB8FE15D4226700D774BD /* Build configuration list for PBXProject "WeatherForecast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				652BB92015D4226700D774BD /* Debug */,
@@ -270,13 +274,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		652BB92215D4226700D774BD /* Build configuration list for PBXNativeTarget "EuroTalkApp" */ = {
+		652BB92215D4226700D774BD /* Build configuration list for PBXNativeTarget "WeatherForecast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				652BB92315D4226700D774BD /* Debug */,
 				652BB92415D4226700D774BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
